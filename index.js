@@ -1,9 +1,9 @@
 var katzDeliLine = [];
 var served = 0;
-var leng
 
 takeANumber(katzDeliLine,name)
 {
-  katzDeliLine[served] = name;
+  var next = katzDeliLine.length;
+  katzDeliLine[next] = name;
   
 }
