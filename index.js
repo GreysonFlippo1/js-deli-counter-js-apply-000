@@ -28,6 +28,7 @@ function nowServing(katzDeliLine){
   }
   else{
     var string1 = katzDeliLine[0];
+    
     return "Currently serving "+string1+".";
   }
 }
