@@ -3,7 +3,7 @@ var served = 0;
 
 takeANumber(katzDeliLine,name)
 {
-  var nextInLine = katzDeliLine.length;
+  var next = katzDeliLine.length;
   katzDeliLine[next] = name;
-  return "Welcome, "+name+". You are number 1 in line.";
+  return "Welcome, "+name+". You are number "1" in line.";
 }
