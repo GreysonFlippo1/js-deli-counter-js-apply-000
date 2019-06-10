@@ -1,4 +1,4 @@
-//var katzDeliLine = [];
+var katzDeliLine = [];
 var served = 0;
 
 function takeANumber(deliLine,name)
