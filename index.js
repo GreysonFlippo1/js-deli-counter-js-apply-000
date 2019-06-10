@@ -5,5 +5,5 @@ takeANumber(katzDeliLine,name)
 {
   var nextInLine = katzDeliLine.length;
   katzDeliLine[next] = name;
-  return 
+  return "Welcome, "+name+". You are number 1 in line.";
 }
