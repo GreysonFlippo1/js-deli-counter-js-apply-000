@@ -15,7 +15,10 @@ function currentLine(katzDeliLine){
   }
   var string1 = "The line is currently:";
   for(var i = 0; i < katzDeliLine.length; i++){
-    string1+=(i+1 - served)+katzDeliLine[i]+", ";
+    string1+=(i+1 - served)+". "+katzDeliLine[i];
+    if(i!=katzDeliLine.length-1){
+      string1 += ", ";
+    }
   }
   return string1;
 } // "The line is currently: 1. Ada, 2. Grace, 3. Kent"
